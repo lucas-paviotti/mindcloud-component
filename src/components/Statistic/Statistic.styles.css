@@ -1,0 +1,22 @@
+.statistic {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 5px;
+}
+
+.statistic span {
+  display: inline-block
+}
+
+.statistic .statistic__value {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1870AF;
+}
+
+.statistic .statistic__suffix {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #798187;
+  margin-bottom: 2px;
+}
